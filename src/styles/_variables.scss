@@ -1,0 +1,7 @@
+$red-bg: #DE1E26;
+
+$text-color: #222222;
+
+@mixin mobile {
+    @media (max-width: 820px) { @content }
+}

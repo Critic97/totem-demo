@@ -1,0 +1,32 @@
+@import "./variables";
+
+@mixin buttonStyle($initial-colour, $hover-colour) {
+    
+    font-size: 18px;
+    padding: 2vh;
+
+    cursor: pointer;
+    transition: background 0.2s;
+
+    text-transform: uppercase;
+
+    background: none;
+    color: $initial-colour;
+    border: 1px solid $initial-colour;
+
+    &:hover {
+        background: $initial-colour;
+        color: $hover-colour !important;
+        border: 1px solid $initial-colour !important;
+    }
+
+}
+
+// initial-color, hover-colour
+.btn-white {
+    @include buttonStyle(white, $red-bg);
+}
+
+.btn-red {
+    @include buttonStyle($red-bg, white);
+}
