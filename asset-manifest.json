@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.1f558304.css",
+    "main.js": "/react-gh-pages/static/js/main.48a35ce4.js",
+    "static/js/787.5eef69be.chunk.js": "/react-gh-pages/static/js/787.5eef69be.chunk.js",
+    "static/media/totem-image-2.png": "/react-gh-pages/static/media/totem-image-2.0a82d1d56245d9711982.png",
+    "static/media/totem-image-3.png": "/react-gh-pages/static/media/totem-image-3.e7c9ae93305b4e55dc55.png",
+    "static/media/totem-image-1.png": "/react-gh-pages/static/media/totem-image-1.aad069766659ed7ac54a.png",
+    "static/media/totem.png": "/react-gh-pages/static/media/totem.c39a4f384cd7e4908e79.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.1f558304.css.map": "/react-gh-pages/static/css/main.1f558304.css.map",
+    "main.48a35ce4.js.map": "/react-gh-pages/static/js/main.48a35ce4.js.map",
+    "787.5eef69be.chunk.js.map": "/react-gh-pages/static/js/787.5eef69be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f558304.css",
+    "static/js/main.48a35ce4.js"
+  ]
+}
