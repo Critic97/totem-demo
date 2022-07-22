@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/totem-demo/static/css/main.9065874f.css",
-    "main.js": "/totem-demo/static/js/main.3ff4b29d.js",
+    "main.css": "/totem-demo/static/css/main.13ff7fee.css",
+    "main.js": "/totem-demo/static/js/main.40d45f3d.js",
     "static/css/97.eee74aea.chunk.css": "/totem-demo/static/css/97.eee74aea.chunk.css",
     "static/js/97.40ab50bb.chunk.js": "/totem-demo/static/js/97.40ab50bb.chunk.js",
-    "static/css/800.5ccaf143.chunk.css": "/totem-demo/static/css/800.5ccaf143.chunk.css",
-    "static/js/800.1510fcda.chunk.js": "/totem-demo/static/js/800.1510fcda.chunk.js",
+    "static/js/606.769e9311.chunk.js": "/totem-demo/static/js/606.769e9311.chunk.js",
     "static/js/197.6bab2ba2.chunk.js": "/totem-demo/static/js/197.6bab2ba2.chunk.js",
     "static/js/787.5eef69be.chunk.js": "/totem-demo/static/js/787.5eef69be.chunk.js",
     "static/media/totem-image-2.png": "/totem-demo/static/media/totem-image-2.0a82d1d56245d9711982.png",
@@ -13,17 +12,16 @@
     "static/media/totem-image-1.png": "/totem-demo/static/media/totem-image-1.aad069766659ed7ac54a.png",
     "static/media/totem.png": "/totem-demo/static/media/totem.c39a4f384cd7e4908e79.png",
     "index.html": "/totem-demo/index.html",
-    "main.9065874f.css.map": "/totem-demo/static/css/main.9065874f.css.map",
-    "main.3ff4b29d.js.map": "/totem-demo/static/js/main.3ff4b29d.js.map",
+    "main.13ff7fee.css.map": "/totem-demo/static/css/main.13ff7fee.css.map",
+    "main.40d45f3d.js.map": "/totem-demo/static/js/main.40d45f3d.js.map",
     "97.eee74aea.chunk.css.map": "/totem-demo/static/css/97.eee74aea.chunk.css.map",
     "97.40ab50bb.chunk.js.map": "/totem-demo/static/js/97.40ab50bb.chunk.js.map",
-    "800.5ccaf143.chunk.css.map": "/totem-demo/static/css/800.5ccaf143.chunk.css.map",
-    "800.1510fcda.chunk.js.map": "/totem-demo/static/js/800.1510fcda.chunk.js.map",
+    "606.769e9311.chunk.js.map": "/totem-demo/static/js/606.769e9311.chunk.js.map",
     "197.6bab2ba2.chunk.js.map": "/totem-demo/static/js/197.6bab2ba2.chunk.js.map",
     "787.5eef69be.chunk.js.map": "/totem-demo/static/js/787.5eef69be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9065874f.css",
-    "static/js/main.3ff4b29d.js"
+    "static/css/main.13ff7fee.css",
+    "static/js/main.40d45f3d.js"
   ]
 }
