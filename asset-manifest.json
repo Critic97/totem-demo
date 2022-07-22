@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/totem-demo/static/css/main.9065874f.css",
-    "main.js": "/totem-demo/static/js/main.48488e4b.js",
+    "main.js": "/totem-demo/static/js/main.3ff4b29d.js",
     "static/css/97.eee74aea.chunk.css": "/totem-demo/static/css/97.eee74aea.chunk.css",
     "static/js/97.40ab50bb.chunk.js": "/totem-demo/static/js/97.40ab50bb.chunk.js",
     "static/css/800.5ccaf143.chunk.css": "/totem-demo/static/css/800.5ccaf143.chunk.css",
@@ -14,7 +14,7 @@
     "static/media/totem.png": "/totem-demo/static/media/totem.c39a4f384cd7e4908e79.png",
     "index.html": "/totem-demo/index.html",
     "main.9065874f.css.map": "/totem-demo/static/css/main.9065874f.css.map",
-    "main.48488e4b.js.map": "/totem-demo/static/js/main.48488e4b.js.map",
+    "main.3ff4b29d.js.map": "/totem-demo/static/js/main.3ff4b29d.js.map",
     "97.eee74aea.chunk.css.map": "/totem-demo/static/css/97.eee74aea.chunk.css.map",
     "97.40ab50bb.chunk.js.map": "/totem-demo/static/js/97.40ab50bb.chunk.js.map",
     "800.5ccaf143.chunk.css.map": "/totem-demo/static/css/800.5ccaf143.chunk.css.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.9065874f.css",
-    "static/js/main.48488e4b.js"
+    "static/js/main.3ff4b29d.js"
   ]
 }
