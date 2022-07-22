@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunklightbearer_saga=self.webpackChunklightbearer_saga||[]).push([[197],{197:function(e,r,a){a.r(r);a(791);var s=a(749),t=(a(601),a(636),a(184));r.default=function(){return(0,t.jsx)(s.b,{children:"Products"})}}}]);
-//# sourceMappingURL=197.6bab2ba2.chunk.js.map
