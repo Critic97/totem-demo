@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/totem-demo/static/css/main.d38aff48.css",
-    "main.js": "/totem-demo/static/js/main.d11d022f.js",
-    "static/css/97.884879d5.chunk.css": "/totem-demo/static/css/97.884879d5.chunk.css",
-    "static/js/97.8d677d30.chunk.js": "/totem-demo/static/js/97.8d677d30.chunk.js",
-    "static/js/606.769e9311.chunk.js": "/totem-demo/static/js/606.769e9311.chunk.js",
-    "static/js/197.17a37814.chunk.js": "/totem-demo/static/js/197.17a37814.chunk.js",
+    "main.css": "/totem-demo/static/css/main.5d0938cb.css",
+    "main.js": "/totem-demo/static/js/main.b1275ba3.js",
+    "static/css/599.23e5d9eb.chunk.css": "/totem-demo/static/css/599.23e5d9eb.chunk.css",
+    "static/js/599.c87bf19d.chunk.js": "/totem-demo/static/js/599.c87bf19d.chunk.js",
+    "static/js/606.1aeb947c.chunk.js": "/totem-demo/static/js/606.1aeb947c.chunk.js",
+    "static/js/197.d8aa5537.chunk.js": "/totem-demo/static/js/197.d8aa5537.chunk.js",
     "static/js/787.5eef69be.chunk.js": "/totem-demo/static/js/787.5eef69be.chunk.js",
+    "static/media/totem-image-4.png": "/totem-demo/static/media/totem-image-4.ed329d9c2a28ff115d54.png",
+    "static/media/totem-image-5.png": "/totem-demo/static/media/totem-image-5.d979c29b3fef0fb5079d.png",
     "static/media/totem-image-2.png": "/totem-demo/static/media/totem-image-2.0a82d1d56245d9711982.png",
     "static/media/totem-image-3.png": "/totem-demo/static/media/totem-image-3.e7c9ae93305b4e55dc55.png",
     "static/media/totem-image-1.png": "/totem-demo/static/media/totem-image-1.aad069766659ed7ac54a.png",
+    "static/media/totem-image-6.png": "/totem-demo/static/media/totem-image-6.92b01c8d60cf5ef587d4.png",
+    "static/media/cross-button.png": "/totem-demo/static/media/cross-button.01f0c0945fc914e6364d.png",
     "static/media/totem.png": "/totem-demo/static/media/totem.c39a4f384cd7e4908e79.png",
+    "static/media/hamburger.png": "/totem-demo/static/media/hamburger.a633845bca57a0d1a648.png",
     "index.html": "/totem-demo/index.html",
-    "main.d38aff48.css.map": "/totem-demo/static/css/main.d38aff48.css.map",
-    "main.d11d022f.js.map": "/totem-demo/static/js/main.d11d022f.js.map",
-    "97.884879d5.chunk.css.map": "/totem-demo/static/css/97.884879d5.chunk.css.map",
-    "97.8d677d30.chunk.js.map": "/totem-demo/static/js/97.8d677d30.chunk.js.map",
-    "606.769e9311.chunk.js.map": "/totem-demo/static/js/606.769e9311.chunk.js.map",
-    "197.17a37814.chunk.js.map": "/totem-demo/static/js/197.17a37814.chunk.js.map",
+    "main.5d0938cb.css.map": "/totem-demo/static/css/main.5d0938cb.css.map",
+    "main.b1275ba3.js.map": "/totem-demo/static/js/main.b1275ba3.js.map",
+    "599.23e5d9eb.chunk.css.map": "/totem-demo/static/css/599.23e5d9eb.chunk.css.map",
+    "599.c87bf19d.chunk.js.map": "/totem-demo/static/js/599.c87bf19d.chunk.js.map",
+    "606.1aeb947c.chunk.js.map": "/totem-demo/static/js/606.1aeb947c.chunk.js.map",
+    "197.d8aa5537.chunk.js.map": "/totem-demo/static/js/197.d8aa5537.chunk.js.map",
     "787.5eef69be.chunk.js.map": "/totem-demo/static/js/787.5eef69be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d38aff48.css",
-    "static/js/main.d11d022f.js"
+    "static/css/main.5d0938cb.css",
+    "static/js/main.b1275ba3.js"
   ]
 }
