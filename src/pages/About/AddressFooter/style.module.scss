@@ -1,0 +1,32 @@
+@import '../../../styles/variables';
+
+.page {
+    margin: auto;
+    width: 60%;
+
+    margin-bottom: 6vh;
+    border-bottom: 1px solid lightgray;
+
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        width: 100%;
+    }
+
+    padding-bottom: 6vh;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 18px;
+
+    margin: auto;
+
+    text-align: center;
+
+    @include mobile {
+        font-size: 16px;
+        width: 90%;
+    }
+}

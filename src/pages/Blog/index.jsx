@@ -3,15 +3,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { NavWrapper } from '../../components/NavWrapper';
+import WorkInProgress from '../../components/WorkInProgress';
 
 import logo from '../../assets/images/totem.png';
-import '../../App.scss';
 
 function About() {
 
     return (
         <NavWrapper>
-            Blog
+            <WorkInProgress/>
         </NavWrapper>
     );
 }

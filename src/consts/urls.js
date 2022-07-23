@@ -2,6 +2,8 @@
 const SOLUTIONS = '/solutions';
 const PRODUCTS = '/products';
 
+const HOST_URL = "/totem-demo"
+
 export const URLS = {
     HOME: `/`,
     ABOUT_US: `/about-totem`,
@@ -19,7 +21,7 @@ export const URLS = {
     // eslint-disable-next-line
     PRODUCTS,
     UNLOCK: `${PRODUCTS}/unlock`,
-    SMARTUP: `${PRODUCTS}/startup`,
+    SMARTUP: `${PRODUCTS}/smartup`,
     MICROLAUNCH: `${PRODUCTS}/micro-launch`,
     GUIDEWELD: `${PRODUCTS}/guideweld`
 };

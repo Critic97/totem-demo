@@ -1,0 +1,79 @@
+@import '../../../styles/variables';
+
+.page {
+    margin: auto;
+    width: 60%;
+
+    margin-bottom: 6vh;
+    
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        width: 90%;
+    }
+
+    padding-bottom: 6vh;
+}
+
+.title {
+    color: $text-color;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+.subtitle {
+    color: $text-color;
+    font-size: 18px;
+
+    margin: auto;
+
+    text-align: center;
+
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.privacy {
+    color: $text-color;
+    font-size: 12px;
+
+    margin: auto;
+
+    text-align: center;
+
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.email {
+    font-size: 24px;
+    
+    margin: auto;
+
+    input {
+        width: 70%;
+        color: $text-color;
+        height: 36px;
+        padding: 1vh;
+        border-color: gray;
+        border-radius: 6px;
+        border-width: 1px;
+
+        @include mobile {
+            margin-bottom: 12px;
+        }
+    }
+
+    text-align: center;
+
+    @include mobile {
+        width: 100%;
+    }
+}

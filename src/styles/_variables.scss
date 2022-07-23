@@ -1,7 +1,16 @@
 $red-bg: #DE1E26;
 
-$text-color: #222222;
+$text-color: #444444;
+
+@mixin disableMobile {
+    @media (max-width: 820px) { display: none; }
+}
+
+@mixin disableDesktop {
+    @media (min-width: 820px) { display: none; }
+}
 
 @mixin mobile {
     @media (max-width: 820px) { @content }
 }
+

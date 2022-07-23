@@ -1,6 +1,7 @@
 @import './styles/reactstrap-style.scss';
 
 body {
+  overflow-x: hidden !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,6 +16,7 @@ code {
 }
 
 a {
+  color: white;
   text-decoration: none !important;
   &:hover {
     color: red !important;

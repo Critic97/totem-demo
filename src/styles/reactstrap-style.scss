@@ -2,17 +2,20 @@
 
 @mixin buttonStyle($initial-colour, $hover-colour) {
     
+    user-select: none;
+    -webkit-user-select: none;
+
     font-size: 18px;
     padding: 2vh;
 
     cursor: pointer;
     transition: background 0.2s;
 
-    text-transform: uppercase;
-
     background: none;
     color: $initial-colour;
     border: 1px solid $initial-colour;
+    
+    border-radius: 6px;
 
     &:hover {
         background: $initial-colour;

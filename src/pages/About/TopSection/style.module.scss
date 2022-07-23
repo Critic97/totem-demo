@@ -1,0 +1,106 @@
+@import '../../../styles/variables';
+
+.page {
+    margin: auto;
+    width: auto;
+    padding-top: 2vh;
+    padding-bottom: 12vh;
+    background: none;
+    color: white;
+}
+
+.pageContainerLeft {
+    display: flex;
+    width: 100%;
+    height: auto !important;
+    
+    margin-top: 24px;
+
+    justify-content: left;
+}
+
+.pageContainerRight {
+    display: flex;
+    width: 100%;
+    height: auto !important;
+
+    margin-bottom: 24px;
+
+    justify-content: right;
+}
+
+.header {
+    background: $red-bg;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    
+
+    @include mobile {
+        line-height: 4vh;
+    }
+}
+
+.headerLeft {
+    @extend .header;
+    text-align: left;
+    
+    margin-right: 5%;
+    padding-left: 5%;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.headerRight {
+    @extend .header;
+    text-align: right;
+    
+    margin-left: 5%;
+    padding-right: 5%;
+    
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: black;
+
+    @include mobile { 
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+}
+
+.textLeft {
+    @extend .text;
+    text-align: left;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.textRight {
+    @extend .text;
+    text-align: right;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    @include mobile {
+        margin-bottom: 6vh;
+    }
+}

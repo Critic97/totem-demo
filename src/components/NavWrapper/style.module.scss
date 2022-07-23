@@ -1,0 +1,305 @@
+@import '../../styles/variables';
+
+
+$header-height: 10vh;
+$navbar-height: 6vh;
+
+.app {
+	text-align: center;
+	background: white;
+
+	opacity: 0;
+	animation: 1s fade-in;
+	animation-delay: 0.4s;
+	animation-fill-mode: both;
+
+}
+
+
+
+.appHeader {
+    background-color: #ffff;
+	height: $header-height;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 2vh;
+
+	border-bottom: 0.3vh solid $red-bg;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	width: 100%;
+
+	column-gap: 2.2vw;
+
+	a {
+		color: $text-color;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+
+	@include mobile {
+		height: $header-height / 1.5;
+	}
+
+	z-index: 200;
+}
+
+.active {
+	color: #E61B20 !important;
+
+	@include mobile {
+		display: none;
+	}
+}
+
+.inactive {
+	@extend .active;
+	color: $text-color !important;
+}
+
+
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-out {
+	0% {
+		opacity: 1;
+		
+	}
+
+	100% {
+		opacity: 0;
+		
+	}
+}
+
+@keyframes fade-in-divider {
+	0% {
+		opacity: 0;
+		height: 0;
+	}
+
+	100% {
+		opacity: 0.5;
+	}
+}
+
+@keyframes fade-out-divider {
+	0% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 0;
+		height: 0;
+	}
+}
+
+.logo {
+	height: 60%;
+
+	cursor: pointer;
+
+	@include mobile {
+		height: 26px;
+		position: absolute;
+		left: 24px;
+	}
+}
+
+.hamburger {
+	display: none;
+
+	height: 26px;
+
+	@include mobile {
+		display: block;
+		position: absolute;
+
+		right: 24px;
+	}
+}
+
+$hamburger-width: 90vw;
+
+.hamburgerMenu {
+	display: none;
+
+	@include mobile {
+		padding-top: 24px;
+		display: flex;
+		background: white;
+
+		flex-flow: column;
+
+		position: fixed;
+		top: $navbar-height;
+		left: 0px;
+
+		width: $hamburger-width;
+		height: 100vh;
+		
+		animation: 0.5s slide-in;
+		animation-fill-mode: both;
+
+		border-right: 1px solid $red-bg;
+
+		overflow-x: hidden;
+	}
+
+	
+}
+
+.hamburgerClosed {
+	@extend .hamburgerMenu;
+	
+	animation: 0.5s slide-out;
+	animation-fill-mode: both;
+}
+
+.mobileActive {
+	padding-bottom: 12px;
+	padding-left: 24px;
+	font-size: 1.6rem;
+	color: #E61B20 !important;
+	width: $hamburger-width;
+}
+
+.mobileInactive {
+	@extend .mobileActive;
+	color: $text-color !important;
+	width: $hamburger-width;
+}
+
+.mobileActiveSub {
+	@extend .mobileActive;
+	color: #E61B20 !important;
+	font-size: 1.2rem;
+	width: $hamburger-width;
+}
+
+.mobileInactiveSub {
+	@extend .mobileInactive;
+	color: $text-color !important;
+	font-size: 1.2rem;
+	width: $hamburger-width;
+}
+
+@keyframes slide-in {
+	0% {
+		width: 0vw;
+	}
+
+	100% {
+		width: $hamburger-width;
+	}
+}
+
+@keyframes slide-out {
+	0% {
+		width: $hamburger-width;
+	}
+
+	100% {
+		width: 0vw;
+	}
+}
+
+.navbar {
+    position: absolute;
+	top: $header-height;
+	left: 0px;
+
+	height: $navbar-height;
+	width: 100%;
+
+	background: $text-color;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 2vh;
+	text-transform: uppercase;
+
+	color: white;
+	column-gap: 3vw;
+
+	border-bottom: 1px solid black;
+
+    opacity: 1;
+	animation: 0.2s fade-in !important;
+	animation-fill-mode: both;
+
+	z-index: 9999;
+
+	@include disableMobile;
+}
+
+.navbarFade {
+    @extend .navbar;
+
+    opacity: 0;
+	animation: 0.2s fade-out !important;
+	animation-fill-mode: both;
+}
+
+.divider {
+	$divider-height: 100vh - ($header-height + $navbar-height);
+
+	position: absolute;
+	top: $header-height + $navbar-height;
+	left: 0px;
+
+	height: $divider-height;
+	width: 100%;
+
+	background: black;
+
+	opacity: 0.5;
+	animation: 0.2s fade-in-divider !important;
+	animation-fill-mode: both;
+
+	@include disableMobile;
+
+}
+
+.dividerFade {
+    opacity: 0.5;
+	animation: 0.2s fade-out-divider !important;
+	animation-fill-mode: both;
+}
+
+.blocker {
+	background: white;
+}
+
+.children {
+    padding-top: 9vh;
+    margin: 0;
+    text-align: left;
+
+	opacity: 1;
+	animation: 1s fade-in;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	
+	height: 81.7vh;
+
+	@include mobile {
+		padding-top: 6vh;
+	}
+}

@@ -1,27 +1,31 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Helmet from 'react-helmet';
 
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import HomePage from './pages/HomePage';
-import About from './pages/About';
 import Blog from './pages/Blog';
 
-import Solutions from './pages/Solutions';
+
+
     import ELearning from './pages/Solutions/E-Learning';
     import Metaverse from './pages/Solutions/Metaverse';
     import MixedReality from './pages/Solutions/MixedReality';
     import SeriousGames from './pages/Solutions/SeriousGames';
     import Simulations from './pages/Solutions/Simulations';
 
-import Products from './pages/Products';
 
 import ErrorPage from './pages/Error';
 
-import { Router, Switch, BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, HashRouter, Route } from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
 import { URLS } from './consts/urls';
+
+
+const About = React.lazy(() => import('./pages/About'));
+const Solutions = React.lazy(() => import('./pages/Solutions'));
+const Products = React.lazy(() => import('./pages/Products'));
 
 function capitaliseFirstLetter (string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
@@ -46,31 +50,33 @@ function getPageName() {
     }
 }
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 		<Helmet><title>{getPageName()} | Totem Learning</title></Helmet>
-		<BrowserRouter forceRefresh={true}>
-			<Switch>
-				<Route exact path={URLS.HOME} component={HomePage}/>
+		<HashRouter baseName="/">
+            <Suspense fallback={<ErrorPage />}>
+                <Switch>
+                    <Route exact path={URLS.HOME} component={HomePage}/>
 
-				<Route path={URLS.ABOUT_US} component={About}/>
-				<Route path={URLS.BLOG} component={Blog}/>
+                    <Route path={URLS.ABOUT_US} component={About}/>
+                    <Route path={URLS.BLOG} component={Blog}/>
 
-                    
-                <Route exact path={URLS.ELEARNING} component={ELearning}/>
-                <Route exact path={URLS.METAVERSE} component={Metaverse}/>
-                <Route exact path={URLS.MIXED_REALITY} component={MixedReality}/>
-                <Route exact path={URLS.SERIOUS_GAMES} component={SeriousGames}/>
-                <Route exact path={URLS.SIMULATIONS} component={Simulations}/>
-				<Route path={URLS.SOLUTIONS} component={Solutions}/>
+                    <Route exact path={URLS.ELEARNING} component={ELearning}/>
+                    <Route exact path={URLS.METAVERSE} component={Metaverse}/>
+                    <Route exact path={URLS.MIXED_REALITY} component={MixedReality}/>
+                    <Route exact path={URLS.SERIOUS_GAMES} component={SeriousGames}/>
+                    <Route exact path={URLS.SIMULATIONS} component={Simulations}/>
+                    <Route path={URLS.SOLUTIONS} component={Solutions}/>
 
 
-                <Route path={URLS.PRODUCTS} component={Products}/>
+                    <Route path={URLS.PRODUCTS} component={Products}/>
 
-                <Route path="*" component={ErrorPage}/>
-			</Switch>
-		</BrowserRouter>
+                    <Route path="*" component={ErrorPage}/>
+                </Switch>
+            </Suspense>
+		</HashRouter>
   </React.StrictMode>
 );
 

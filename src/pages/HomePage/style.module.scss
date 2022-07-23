@@ -1,0 +1,166 @@
+@import '../../styles/variables';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+    background: $red-bg;
+    height: 100%;
+    width: 100%;
+
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+
+    @include mobile {
+        height: 100vh;
+    }
+}
+
+.head {
+    font-size: 8vh;
+    white-space: pre-wrap;
+
+    min-width: 60%;
+
+    width: 80%;
+
+    max-height: 20vh;
+    margin: auto;
+    line-height: 9vh;
+
+    @include mobile {
+        font-size: 4vh;
+        width: 80%;
+        line-height: 2vw;
+    }
+}
+
+.title {
+    @extend .head;
+
+    color: white;
+    text-align: left;
+
+    text-align: justify;
+    text-justify: inter-word;
+
+    width: 50%;
+    
+    @include mobile {
+        width: 90%;
+        line-height: 100%;
+    }
+}
+
+.subText {
+    @extend .title;
+
+    font-size: 2.5vh;
+    line-height: 4vh;
+    margin-top: 6vh;
+    
+    height: auto;
+
+    @include mobile {
+        height: auto;
+        max-height: 100vh;
+    }
+}
+
+
+.doorContainer {
+    display: flex;
+
+    margin-top: 18vh;
+    margin-bottom: 4vh;
+
+    @include mobile {
+        margin-top: 12vh;
+    }
+}
+
+
+@keyframes door-open {
+    0% {
+        transform:  translateY(-3vh) rotate(-0deg);
+    }
+
+    100% {
+        transform:  translateY(-3vh) rotate(-45deg);
+    }
+}
+
+$door-length: 5.5%;
+
+.leftWall {
+    position: absolute;
+    left: -$door-length / 3.3;
+
+    border-top: 3vh solid white;
+    width: 69.2%;
+
+    transform: translateY(-3vh);
+
+    
+    @include mobile {
+        $door-length: 5.2%;
+        left: -$door-length;
+    }
+}
+
+.rightWall {
+    position: absolute;
+    right: -$door-length / 3;
+
+    border-top: 3vh solid white;
+    width: 27%;
+
+    transform: translateY(-3vh);
+}
+
+.door {
+    border-top: 3vh solid white;
+
+    position: absolute;
+    left: 66.9%;
+
+    width: $door-length + 2.4;
+
+    transform-origin: 1.5vh 1.5vh;
+    transition: transform 0.2s;
+
+    border-top-left-radius: 1.5vh;
+    border-bottom-left-radius: 1.5vh;
+
+    animation: 1s door-open;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    transform: translateY(-3vh);
+
+    @include mobile {
+        width: $door-length + 8;
+        transform: translateY(-2.95vh);
+        left: 62%;
+    }
+}
+
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 2vh;
+    margin-top: 6vh;
+
+    @include mobile {
+        margin-top: 9vh;
+        margin-bottom: 6vh;
+    }
+}
