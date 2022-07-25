@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/totem-demo/static/css/main.75681672.css",
-    "main.js": "/totem-demo/static/js/main.6b1d3603.js",
-    "static/css/267.bd4399de.chunk.css": "/totem-demo/static/css/267.bd4399de.chunk.css",
-    "static/js/267.bed57ca7.chunk.js": "/totem-demo/static/js/267.bed57ca7.chunk.js",
+    "main.js": "/totem-demo/static/js/main.bbde3523.js",
+    "static/css/267.274b9814.chunk.css": "/totem-demo/static/css/267.274b9814.chunk.css",
+    "static/js/267.62deb46b.chunk.js": "/totem-demo/static/js/267.62deb46b.chunk.js",
     "static/js/606.1aeb947c.chunk.js": "/totem-demo/static/js/606.1aeb947c.chunk.js",
     "static/js/197.d8aa5537.chunk.js": "/totem-demo/static/js/197.d8aa5537.chunk.js",
     "static/js/787.5eef69be.chunk.js": "/totem-demo/static/js/787.5eef69be.chunk.js",
@@ -21,15 +21,15 @@
     "static/media/hamburger.png": "/totem-demo/static/media/hamburger.a633845bca57a0d1a648.png",
     "index.html": "/totem-demo/index.html",
     "main.75681672.css.map": "/totem-demo/static/css/main.75681672.css.map",
-    "main.6b1d3603.js.map": "/totem-demo/static/js/main.6b1d3603.js.map",
-    "267.bd4399de.chunk.css.map": "/totem-demo/static/css/267.bd4399de.chunk.css.map",
-    "267.bed57ca7.chunk.js.map": "/totem-demo/static/js/267.bed57ca7.chunk.js.map",
+    "main.bbde3523.js.map": "/totem-demo/static/js/main.bbde3523.js.map",
+    "267.274b9814.chunk.css.map": "/totem-demo/static/css/267.274b9814.chunk.css.map",
+    "267.62deb46b.chunk.js.map": "/totem-demo/static/js/267.62deb46b.chunk.js.map",
     "606.1aeb947c.chunk.js.map": "/totem-demo/static/js/606.1aeb947c.chunk.js.map",
     "197.d8aa5537.chunk.js.map": "/totem-demo/static/js/197.d8aa5537.chunk.js.map",
     "787.5eef69be.chunk.js.map": "/totem-demo/static/js/787.5eef69be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75681672.css",
-    "static/js/main.6b1d3603.js"
+    "static/js/main.bbde3523.js"
   ]
 }
