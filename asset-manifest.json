@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/totem-demo/static/css/main.6994f1c3.css",
-    "main.js": "/totem-demo/static/js/main.b3bfbbc1.js",
-    "static/css/945.53ca9039.chunk.css": "/totem-demo/static/css/945.53ca9039.chunk.css",
-    "static/js/945.24873bef.chunk.js": "/totem-demo/static/js/945.24873bef.chunk.js",
+    "main.css": "/totem-demo/static/css/main.75681672.css",
+    "main.js": "/totem-demo/static/js/main.6b1d3603.js",
+    "static/css/267.bd4399de.chunk.css": "/totem-demo/static/css/267.bd4399de.chunk.css",
+    "static/js/267.bed57ca7.chunk.js": "/totem-demo/static/js/267.bed57ca7.chunk.js",
     "static/js/606.1aeb947c.chunk.js": "/totem-demo/static/js/606.1aeb947c.chunk.js",
     "static/js/197.d8aa5537.chunk.js": "/totem-demo/static/js/197.d8aa5537.chunk.js",
     "static/js/787.5eef69be.chunk.js": "/totem-demo/static/js/787.5eef69be.chunk.js",
@@ -20,16 +20,16 @@
     "static/media/totem-great-1.png": "/totem-demo/static/media/totem-great-1.3a1a1249c3cad8f4f78f.png",
     "static/media/hamburger.png": "/totem-demo/static/media/hamburger.a633845bca57a0d1a648.png",
     "index.html": "/totem-demo/index.html",
-    "main.6994f1c3.css.map": "/totem-demo/static/css/main.6994f1c3.css.map",
-    "main.b3bfbbc1.js.map": "/totem-demo/static/js/main.b3bfbbc1.js.map",
-    "945.53ca9039.chunk.css.map": "/totem-demo/static/css/945.53ca9039.chunk.css.map",
-    "945.24873bef.chunk.js.map": "/totem-demo/static/js/945.24873bef.chunk.js.map",
+    "main.75681672.css.map": "/totem-demo/static/css/main.75681672.css.map",
+    "main.6b1d3603.js.map": "/totem-demo/static/js/main.6b1d3603.js.map",
+    "267.bd4399de.chunk.css.map": "/totem-demo/static/css/267.bd4399de.chunk.css.map",
+    "267.bed57ca7.chunk.js.map": "/totem-demo/static/js/267.bed57ca7.chunk.js.map",
     "606.1aeb947c.chunk.js.map": "/totem-demo/static/js/606.1aeb947c.chunk.js.map",
     "197.d8aa5537.chunk.js.map": "/totem-demo/static/js/197.d8aa5537.chunk.js.map",
     "787.5eef69be.chunk.js.map": "/totem-demo/static/js/787.5eef69be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6994f1c3.css",
-    "static/js/main.b3bfbbc1.js"
+    "static/css/main.75681672.css",
+    "static/js/main.6b1d3603.js"
   ]
 }
