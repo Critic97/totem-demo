@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/totem-demo/static/css/main.6994f1c3.css",
-    "main.js": "/totem-demo/static/js/main.d0c61174.js",
-    "static/css/599.23e5d9eb.chunk.css": "/totem-demo/static/css/599.23e5d9eb.chunk.css",
-    "static/js/599.503ab4a0.chunk.js": "/totem-demo/static/js/599.503ab4a0.chunk.js",
+    "main.js": "/totem-demo/static/js/main.b3bfbbc1.js",
+    "static/css/945.53ca9039.chunk.css": "/totem-demo/static/css/945.53ca9039.chunk.css",
+    "static/js/945.24873bef.chunk.js": "/totem-demo/static/js/945.24873bef.chunk.js",
     "static/js/606.1aeb947c.chunk.js": "/totem-demo/static/js/606.1aeb947c.chunk.js",
     "static/js/197.d8aa5537.chunk.js": "/totem-demo/static/js/197.d8aa5537.chunk.js",
     "static/js/787.5eef69be.chunk.js": "/totem-demo/static/js/787.5eef69be.chunk.js",
@@ -15,18 +15,21 @@
     "static/media/totem-image-6.png": "/totem-demo/static/media/totem-image-6.92b01c8d60cf5ef587d4.png",
     "static/media/cross-button.png": "/totem-demo/static/media/cross-button.01f0c0945fc914e6364d.png",
     "static/media/totem.png": "/totem-demo/static/media/totem.c39a4f384cd7e4908e79.png",
+    "static/media/totem-great-3.png": "/totem-demo/static/media/totem-great-3.485f98fa054bb1ad569e.png",
+    "static/media/totem-great-2.png": "/totem-demo/static/media/totem-great-2.3e12cbf2c2ea662dfc1c.png",
+    "static/media/totem-great-1.png": "/totem-demo/static/media/totem-great-1.3a1a1249c3cad8f4f78f.png",
     "static/media/hamburger.png": "/totem-demo/static/media/hamburger.a633845bca57a0d1a648.png",
     "index.html": "/totem-demo/index.html",
     "main.6994f1c3.css.map": "/totem-demo/static/css/main.6994f1c3.css.map",
-    "main.d0c61174.js.map": "/totem-demo/static/js/main.d0c61174.js.map",
-    "599.23e5d9eb.chunk.css.map": "/totem-demo/static/css/599.23e5d9eb.chunk.css.map",
-    "599.503ab4a0.chunk.js.map": "/totem-demo/static/js/599.503ab4a0.chunk.js.map",
+    "main.b3bfbbc1.js.map": "/totem-demo/static/js/main.b3bfbbc1.js.map",
+    "945.53ca9039.chunk.css.map": "/totem-demo/static/css/945.53ca9039.chunk.css.map",
+    "945.24873bef.chunk.js.map": "/totem-demo/static/js/945.24873bef.chunk.js.map",
     "606.1aeb947c.chunk.js.map": "/totem-demo/static/js/606.1aeb947c.chunk.js.map",
     "197.d8aa5537.chunk.js.map": "/totem-demo/static/js/197.d8aa5537.chunk.js.map",
     "787.5eef69be.chunk.js.map": "/totem-demo/static/js/787.5eef69be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6994f1c3.css",
-    "static/js/main.d0c61174.js"
+    "static/js/main.b3bfbbc1.js"
   ]
 }
